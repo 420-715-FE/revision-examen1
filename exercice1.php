@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="water.css">
 </head>
 <body>
+    <nav>
+        <a href="index.html">Retour</a>
+    </nav> 
+       
     <?php
     $valeurs = [15, 10, 17, 15, 11, 13, 12];
     

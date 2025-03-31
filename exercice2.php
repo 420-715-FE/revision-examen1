@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="water.css">
 </head>
 <body>
+    <nav>
+        <a href="index.html">Retour</a>
+    </nav>    
+
     <?php
     $tableau1 = [9, 27, 15, 76];
     $tableau2 = [42, 19, 31];
