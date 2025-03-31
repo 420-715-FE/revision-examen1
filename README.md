@@ -15,4 +15,5 @@ Ajouter le code nécessaire pour:
 * À l'aide d'une boucle, calculer la moyenne des valeurs du tableau.
 * Afficher la moyenne à l'écran.
 
-> [!Note] C'est une bonne idée d'utiliser la calculatrice pour valider que vous arrivez au bon résultat.
+> [!Note]
+> C'est une bonne idée d'utiliser la calculatrice pour valider que vous arrivez au bon résultat.
