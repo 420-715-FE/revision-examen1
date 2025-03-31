@@ -15,5 +15,5 @@ Ajouter le code nécessaire pour:
 * À l'aide d'une boucle, calculer la moyenne des valeurs du tableau.
 * Afficher la moyenne à l'écran.
 
-> [!TIP]
+> [!Note]
 > Test
