@@ -8,17 +8,14 @@
 </head>
 <body>
     <?php
-    // Création du tableau
     $valeurs = [15, 10, 17, 15, 11, 13, 12];
     
-    // Calcul de la somme et de la moyenne
     $somme = 0;
     foreach ($valeurs as $valeur) {
         $somme += $valeur;
     }
     $moyenne = $somme / count($valeurs);
     
-    // Affichage de la moyenne
     echo "<p>La moyenne des valeurs est : $moyenne</p>";
     ?>
 </body>

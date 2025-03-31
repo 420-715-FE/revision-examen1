@@ -30,7 +30,7 @@ Ajoutez le code nécessaire pour:
 
 * À l'aide d'une boucle, ajouter les éléments de `tableau2` à la fin de `tableau1`.
 
-* Afficher les valeurs de `tableau1` à l'écran.
+* Afficher les valeurs de `tableau1` dans une liste à puces (`ul`).
 
 ## Exercice 3
 
