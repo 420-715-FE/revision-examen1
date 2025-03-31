@@ -171,3 +171,5 @@ Ajoutez du code qui affiche un formulaire si celui-ci n'a pas déjà été trans
 Si le formulaire a été envoyé, votre script doit afficher « Merci **Prénom Nom**, la succursale de **Succursale** vous contactera dans les plus brefs délais. » en remplaçant les termes en **gras** par les valeurs correspondantes.
 
 Le script doit prendre toutes les précautions de sécurité vues en classe en lien avec les formulaires.
+
+> 🎉 Félicitations, vous avez terminé les exercices préparatoires!
