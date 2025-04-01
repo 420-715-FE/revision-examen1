@@ -18,18 +18,11 @@
     <nav>
         <a href="index.html">Retour</a>
     </nav>
-
     <p>
     <?php
-        for ($i = 1; $i <= 60; $i++) {
-            echo "* ";
-            if ($i % 5 == 0) {
-                echo "<br>";
-                if ($i % 10 == 0) {
-                    echo "<br>";
-                }
-            }
-        }
+
+    // Ajouter votre code ci-dessous
+
     ?>
     </p>
 </body>
