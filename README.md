@@ -65,7 +65,7 @@ Ajoutez le code nécessaire pour:
   * `max`
   * `inc`
 
-* Valider que les variables ont bien été reçues et sont bien des nombres entiers. Si une variable est manquante, afficher un message d'erreur significatif.
+* Valider que les variables ont bien été reçues et sont bien des nombres entiers. Si une variable est manquante, afficher un message d'erreur significatif puis arrêtez l'exécution.
 * À l'aide d'une boucle `for`, afficher les nombres de `min` à `max` avec un incrément de `inc`. Ajoutez un saut de ligne entre chaque nombre.
 
 Par exemple, avec min = 5, max = 20 et inc = 3, vous devriez obtenir le résultat suivant :
