@@ -120,25 +120,26 @@ Ajoutez le code nécessaire pour:
 * Si `montantPaye` est inférieur à `prix`, afficher « Il manque X$. », en remplaçant `X` par la différence entre `prix` et `montantPaye`.
 * Si `montantPaye` est plus grand que `prix` :
 
-    * Afficher la différence (montant à remettre au client) à l'écran.
+    * Afficher « Montant à remettre au client: » suivie de la différence, puis d'un saut de ligne.
     * Utiliser une boucle `while` pour simuler la remise de la monnaie au client, en itérant tant que le montant restant à remettre est supérieur à zéro. À chaque itération :
 
         * Déterminer la plus grande coupure (100$, 50$, 20$, 10$, 5$, 2$, 1$, 25¢, 10¢ ou 5¢) qui est inférieure ou égale au montant restant à remettre.
         * Soustraire la valeur de cette coupure du montant restant à remettre.
-        * Afficher la valeur de la coupure à l'écran.
+        * Afficher la valeur de la coupure à l'écran, suivie d'un saut de ligne.
         * S'il reste seulement 0,03$ ou 0,04$ à remettre, mettre le montant à 0 et afficher une coupure supplémentaire de 5¢.
         * S'il reste moins de 0,03$ à remettre, mettre le montant à 0 et ne pas afficher de coupure supplémentaire.
 
-Exemple avec `prix` = 127,79$ et `montantPaye` = 200$:
+Exemple avec `prix` = `127.82` et `montantPaye` = `200`:
 
 ```
-Montant à remettre au client : 74.21$
+Montant à remettre au client: 72.18$
 50$
 20$
-2$
-2$
+1$
+1$
 10¢
-10¢
+5¢
+5¢
 ```
 
 ## Exercice 7
