@@ -146,7 +146,7 @@ Montant à remettre au client: 72.18$
 
 Utilisez les fichiers `exerice7.php` et `fonction-exercice7.php` pour cet exercice.
 
-Reprenez votre code de l'exercice 6. Déplacez votre code qui remet la monnaie vers une fonction `remettreMonnaie` que vous placerez dans le fichier `fonction-exercice7.php`. Cette fonction ne doit pas afficher la monnaie remise, elle doit plutôt retourner un tableau contenant les coupures. Ensuite, dans le fichier `exercice7.php`, faites une inclusion du fichier `fonction-exercice7.php`, puis utilisez votre nouvelle fonction pour reproduire le même comportement qu'à l'exercice 6.
+Reprenez votre code de l'exercice 6. Déplacez votre code qui remet la monnaie vers une fonction `remettreMonnaie` que vous placerez dans le fichier `fonction-exercice7.php`. Cette fonction doit prendre en paramètre le montant à remettre. Plutôt qu'afficher directement les coupures à remettre, elle doit retourner un tableau qui les contient. Ensuite, dans le fichier `exercice7.php`, faites une inclusion du fichier `fonction-exercice7.php`, puis utilisez votre nouvelle fonction pour reproduire le même comportement qu'à l'exercice 6.
 
 ## Exercice 8
 
