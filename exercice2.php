@@ -11,19 +11,5 @@
         <a href="index.html">Retour</a>
     </nav>    
 
-    <?php
-    $tableau1 = [9, 27, 15, 76];
-    $tableau2 = [42, 19, 31];
-    
-    foreach ($tableau2 as $valeur) {
-        $tableau1[] = $valeur;
-    }
-    
-    echo "<ul>";
-    foreach ($tableau1 as $valeur) {
-        echo "<li>$valeur</li>";
-    }
-    echo "</ul>";
-    ?>
 </body>
 </html>

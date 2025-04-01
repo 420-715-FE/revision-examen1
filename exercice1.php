@@ -10,17 +10,6 @@
     <nav>
         <a href="index.html">Retour</a>
     </nav> 
-       
-    <?php
-    $valeurs = [15, 10, 17, 15, 11, 13, 12];
-    
-    $somme = 0;
-    foreach ($valeurs as $valeur) {
-        $somme += $valeur;
-    }
-    $moyenne = $somme / count($valeurs);
-    
-    echo "<p>La moyenne des valeurs est : $moyenne</p>";
-    ?>
+
 </body>
 </html>
